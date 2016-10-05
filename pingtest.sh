@@ -1,7 +1,7 @@
 #!/bin/sh
 # Version 2.1.2 *REQUIREMENTS BELOW*
 #
-# 1. Working HEYU installed. http://www.heyu.org/
+# 1. A working HEYU installed. http://www.heyu.org/
 # 2. X10 Serial CM17A (script written for this model, but can use others.)
 # 3. X10 Appliance Module, don't use a Dimmer Module or anything else - you could damage your router!
 # 4. terminal-notifier (Homebrew: brew install terminal-notifier or https://github.com/julienXX/terminal-notifier)
