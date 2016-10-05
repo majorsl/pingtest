@@ -7,6 +7,6 @@
 	<key>Program</key>
 	<string>/Users/majorsl/Scripts/GitHub/pingtest/pingtest.sh</string>
 	<key>StartInterval</key>
-	<integer>1800</integer>
+	<integer>3600</integer>
 </dict>
 </plist>
