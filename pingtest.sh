@@ -1,5 +1,5 @@
 #!/bin/sh
-# Version 2.1.2 *REQUIREMENTS BELOW*
+# Version 2.2 *REQUIREMENTS BELOW*
 #
 # 1. A working HEYU installed. http://www.heyu.org/
 # 2. X10 Serial CM17A (script written for this model, but can use others.)
@@ -50,5 +50,5 @@ if [ ${RET} -eq 0 ] || [ ${RET2} -eq 0 ]; then
 	done
 	#Send notice to Notification Center.
 	DATE=`date +%h" "%m" "%l:%M%p`
-	/Applications/terminal-notifier.app/Contents/MacOS/terminal-notifier -title 'Ping Test' -message "Could not ping test hosts, router reset on $DATE. (X10 $MODULE)" -sender com.apple.Terminal
+	/usr/local/bin/terminal-notifier -title 'Ping Test' -message "Could not ping test hosts, router reset on $DATE. (X10 $MODULE)" -activate -sender com.apple.Terminal -timeout 10
 fi
