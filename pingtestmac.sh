@@ -1,5 +1,5 @@
-#!/bin/sh
-# Version 2.2.1 *REQUIREMENTS BELOW*
+#!/usr/bin/env bash
+# Version 2.2.2 *REQUIREMENTS BELOW*
 #
 # 1. A working HEYU installed. http://www.heyu.org/
 # 2. X10 Serial CM17A (script written for this model, but can use others.)
